@@ -359,3 +359,5 @@ These are load-bearing for Beacon's identity and consistency. Revisiting any of 
 9. **Shimmer-sweep loading animations are explicitly rejected** in favor of opacity-pulse — this is a deliberate anti-pattern flag, not an oversight if someone reaches for a shimmer package later.
 10. **Videos never autoplay in-thread** — this preserves the "chat-first, not Reels" identity even as media features expand.
 11. **Elastic/bounce easing is reserved for the single reaction-pop moment only** — every other transition uses cubic easing.
+
+Before real students use Beacon, enable email confirmation and decide whether Beacon should use domain restriction, invitations, or another access-control mechanism.
